@@ -179,14 +179,14 @@ body {
     font-family: 'Cousine', monospace;
     font-size: 16px;
     
-    background: linear-gradient(290deg, #3f1388, #320927);
+    background: linear-gradient(310deg, #3f1388, #320927);
     background-size: 400% 400%;
     min-width: 100%;
     min-height: 100%;
 
-    -webkit-animation: DynamicGradient 59s ease infinite;
-    -moz-animation: DynamicGradient 59s ease infinite;
-    animation: DynamicGradient 59s ease infinite;
+    -webkit-animation: DynamicGradient 50s ease infinite;
+    -moz-animation: DynamicGradient 50s ease infinite;
+    animation: DynamicGradient 50s ease infinite;
 }
 
 .main-container {
@@ -212,11 +212,21 @@ body {
     text-transform: uppercase;
 }
 
+#links ul {
+    list-style: none; 
+}
 
+#links ul li {
+    display: inline-block;
+}
 
+#links ul img {
+    height: 32px;
+}
 
-
-
+#links ul img :hover {
+    cursor: pointer;
+}
 
 
 
