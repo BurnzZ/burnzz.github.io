@@ -1,3 +1,9 @@
+# jekyll
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
 
 # Created by https://www.gitignore.io/api/osx,vim,git,sass,sublimetext
 
