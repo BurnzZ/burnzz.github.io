@@ -31,6 +31,7 @@ github_username:  burnzz
 
 # Build settings
 theme: jekyll-theme-hyde
+remote_theme: poole/hyde
 plugins:
   - jekyll-feed
 
