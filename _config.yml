@@ -30,10 +30,10 @@ url: "burnzz.github.io" # the base hostname & protocol for your site, e.g. http:
 github_username:  burnzz
 
 # Build settings
-theme: jekyll-theme-hyde
 remote_theme: poole/hyde
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
