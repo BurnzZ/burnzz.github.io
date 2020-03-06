@@ -30,7 +30,7 @@ url: "burnzz.github.io" # the base hostname & protocol for your site, e.g. http:
 github_username:  burnzz
 
 # Build settings
-remote_theme: poole/hyde
+remote_theme: poole/hyde@6cf22d7
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
