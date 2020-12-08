@@ -24,7 +24,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   Currently a Technical Team Lead at Scrapinghub and a Data Nerd.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "burnzz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
 github_username:  burnzz
 
 # Build settings
@@ -36,6 +35,7 @@ plugins:
 hydeout:
   repo: https://github.com/burnzz
   linkedin: https://www.linkedin.com/in/burnzz
+  twitter: https://twitter.com/KevinCookinData
 
 google_analytics: UA-98277292-1
 
