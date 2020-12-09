@@ -21,7 +21,7 @@
 title: Kevin Lloyd Bernal
 email: kevinoxy@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Currently a Technical Team Lead at Scrapinghub and a Data Nerd.
+  Currently a Technical Team Lead at Scrapinghub and a Data Nerd. MS Student at GA Tech.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "burnzz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  burnzz
@@ -31,6 +31,9 @@ remote_theme: fongandrew/hydeout
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-paginate
+
+paginate: 5
 
 hydeout:
   repo: https://github.com/burnzz
