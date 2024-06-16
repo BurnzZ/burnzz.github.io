@@ -18,8 +18,14 @@
             height: 100%;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
+        }
+
+        @media screen and ( min-height: 830px )
+        {
+            .container {
+                justify-content: center;
+            }
         }
 
         p {
@@ -35,25 +41,25 @@
             text-align: center;
         }
 
-        .width-70 {
-            width: 70%;
+        .width-truncate {
+            width: 80%;
             text-align: justify;
             color: #a0a8b0;
         }
 
-        .width-70 * {
+        .width-truncate * {
             color: #a0a8b0;
         }
 
-        .width-70 p:hover * {
+        .width-truncate p:hover * {
             color: #757a80;
         }
 
-        .width-70 p:hover {
+        .width-truncate p:hover {
             color: #757a80;
         }
 
-        .width-70 h1 {
+        .width-truncate h1 {
             color: #757a80;
         }
 
@@ -69,11 +75,11 @@
         <div>
             <img src="https://avatars.githubusercontent.com/u/3449761?v=4" id="profile-pic">
         </div>
-        <div class="width-70">
+        <div class="width-truncate">
             <h1>Hey there! I'm Kevin Lloyd Bernal 👋</h1>
         </div>
 
-        <div id="description" class="width-70">
+        <div id="description" class="width-truncate">
             <p>
                 I'm currently working as a <b>Data Scientist / Machine Learning Engineer</b>
                 at <a href="https://www.zyte.com/" target="_blank">Zyte</a>. 
@@ -86,7 +92,7 @@
                 and as a <b>Data Engineer</b> at <a href="https://www.factset.com" >FactSet</a>. 
             </p>
         </div>
-        <section id="contact" class="width-70">
+        <section id="contact" class="width-truncate">
             <p>
                 You can contact me via             
                 <a href="mailto:kevinlloydbernal@gmail.com">kevinlloydbernal@gmail.com</a>
