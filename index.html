@@ -1,4 +1,102 @@
----
-layout: index
-title: Home
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Profile</title>
+    <style>
+        * {
+            font-size: 18px;
+            font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+        }
+
+        html, body {
+            height: 100%;
+        }
+        
+        .container {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        p {
+            line-height: 1.5em;
+        }
+
+        b {
+            font-weight: 600;
+        }
+
+        h1 {
+            font-size: 1.5em;
+            text-align: center;
+        }
+
+        .width-70 {
+            width: 70%;
+            text-align: justify;
+            color: #a0a8b0;
+        }
+
+        .width-70 * {
+            color: #a0a8b0;
+        }
+
+        .width-70 p:hover * {
+            color: #757a80;
+        }
+
+        .width-70 p:hover {
+            color: #757a80;
+        }
+
+        .width-70 h1 {
+            color: #757a80;
+        }
+
+        #profile-pic {
+            width: 260px;
+            height: 260px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div>
+            <img src="https://avatars.githubusercontent.com/u/3449761?v=4" id="profile-pic">
+        </div>
+        <div class="width-70">
+            <h1>Hey there! I'm Kevin Lloyd Bernal 👋</h1>
+        </div>
+
+        <div id="description" class="width-70">
+            <p>
+                I'm currently working as a <b>Data Scientist / Machine Learning Engineer</b>
+                at <a href="https://www.zyte.com/" target="_blank">Zyte</a>. 
+                I help create tools for crawling the vast web and extracting information from it
+                in an efficient and easy manner <i>(e.g. training ML models)</i>.
+            </p>
+
+            <p>
+                Previously, I worked as a <b>Network DevOps Engineer</b> at <u>Google</u> <i>(contractor)</i>
+                and as a <b>Data Engineer</b> at <a href="https://www.factset.com" >FactSet</a>. 
+            </p>
+        </div>
+        <section id="contact" class="width-70">
+            <p>
+                You can contact me via             
+                <a href="mailto:kevinlloydbernal@gmail.com">kevinlloydbernal@gmail.com</a>
+                and can also connect via
+                <a href="https://www.linkedin.com/in/burnzz/">LinkedIn</a>.
+            </p>
+            <p>
+                Lastly, check out the things I'm working at my <a href="https://github.com/BurnzZ">GitHub</a>.
+            </p>
+        </section>
+    </section>
+</body>
+</html>
